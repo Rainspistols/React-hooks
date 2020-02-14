@@ -3,10 +3,10 @@ import axios from 'axios';
 import { GithubContext } from './githubContext';
 import { githubReducer } from './githubReducer';
 import {
-  SEARCH_USERS,
-  GET_USER,
-  GET_REPOS,
   CLEAR_USERS,
+  GET_REPOS,
+  GET_USER,
+  SEARCH_USERS,
   SET_LOADING
 } from '../types';
 
@@ -24,6 +24,7 @@ export const GithubState = ({ children }) => {
     loading: false,
     repos: []
   };
+
   const [state, dispatch] = useReducer(githubReducer, initialState);
 
   const search = async value => {
@@ -47,19 +48,20 @@ export const GithubState = ({ children }) => {
     );
 
     dispatch({
-      type: GET_REPOS,
+      type: GET_USER,
       payload: response.data
     });
   };
 
   const getRepos = async name => {
     setLoading();
+
     const response = await axios.get(
       withCreds(`https://api.github.com/users/${name}/repos?per_page=5&`)
     );
 
     dispatch({
-      type: GET_USER,
+      type: GET_REPOS,
       payload: response.data
     }); 
   };
