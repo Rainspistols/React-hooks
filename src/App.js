@@ -5,7 +5,7 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Profile } from './pages/Profile';
 import { Alert } from './components/Alert';
-import { AlertState } from './context/alert/alertState';
+import { AlertState } from './context/alert/AlertState';
 
 function App() {
   return (
