@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Rainspistols/React-hooks/static/css/main.e0c8a65f.chunk.css",
+    "main.js": "/Rainspistols/React-hooks/static/js/main.42db9831.chunk.js",
+    "main.js.map": "/Rainspistols/React-hooks/static/js/main.42db9831.chunk.js.map",
+    "runtime-main.js": "/Rainspistols/React-hooks/static/js/runtime-main.3c85aa1b.js",
+    "runtime-main.js.map": "/Rainspistols/React-hooks/static/js/runtime-main.3c85aa1b.js.map",
+    "static/js/2.a5865174.chunk.js": "/Rainspistols/React-hooks/static/js/2.a5865174.chunk.js",
+    "static/js/2.a5865174.chunk.js.map": "/Rainspistols/React-hooks/static/js/2.a5865174.chunk.js.map",
+    "index.html": "/Rainspistols/React-hooks/index.html",
+    "precache-manifest.e95da653748b4d8247d56f69a5f86102.js": "/Rainspistols/React-hooks/precache-manifest.e95da653748b4d8247d56f69a5f86102.js",
+    "service-worker.js": "/Rainspistols/React-hooks/service-worker.js",
+    "static/css/main.e0c8a65f.chunk.css.map": "/Rainspistols/React-hooks/static/css/main.e0c8a65f.chunk.css.map",
+    "static/js/2.a5865174.chunk.js.LICENSE.txt": "/Rainspistols/React-hooks/static/js/2.a5865174.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c85aa1b.js",
+    "static/js/2.a5865174.chunk.js",
+    "static/css/main.e0c8a65f.chunk.css",
+    "static/js/main.42db9831.chunk.js"
+  ]
+}
