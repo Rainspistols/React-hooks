@@ -34,7 +34,7 @@ export const Profile = ({ match }) => {
 
   return (
     <Fragment>
-      <Link to='/' className='btn btn-link'>
+      <Link to='/React-hooks/' className='btn btn-link'>
         To the main
       </Link>
 

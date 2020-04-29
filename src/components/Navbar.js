@@ -7,12 +7,12 @@ export const Navbar = () => {
       <div className='navbar-brand'>Github Search</div>
       <ul className='navbar-nav'>
         <li className='nav-item'>
-          <NavLink exact className='nav-link' to='/'>
+          <NavLink exact className='nav-link' to='/React-hooks/'>
             Main
           </NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink className='nav-link' to='/about'>
+          <NavLink className='nav-link' to='/React-hooks/about'>
             Infromation
           </NavLink>
         </li>
